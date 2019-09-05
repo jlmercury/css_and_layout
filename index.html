@@ -5,6 +5,10 @@
     <meta charset="utf-8">
     <style>
       /* GLOBAL STYLES */
+      html, body {
+        /* font-family: serif; */
+        margin: 0;
+      }
       h1 {
         font-size: 7vw;
         margin-top: 0;
@@ -22,15 +26,37 @@
       /* SOCIAL STYLES */
       .social-link {
         background: rgba(150, 150, 150, 0.5);
-        color: blue;
+        /* border: 1px solid black; */
+        border-radius: 50%;
+        box-sizing: border-box;
+        color: #fff;
         display: inline-block;
-        height: 36px;
-        width: 36px;
+        font-family: helvetica, arial, sans;
+        font-size: 1em;
+        font-weight: bold;
+        height: 2.5em;
+        line-height: 1;
+        padding-top: 0.85em;
+        text-align: center;
+        text-decoration: none;
+        vertical-align: middle;
+        width: 2.5em;
+      }
+      .social-list {
+        list-style: none;
+        padding: 0;
+        text-align: center;
+      }
+      .social-list > li {
+        display: inline-block;
+        margin: 0 0.5em;
       }
 
       /* BIO STYLES */
       .bio-wrapper {
         font-size: 24px;
+        margin: 0 auto 50px;
+        max-width: 960px;
         overflow: hidden;
       }
       .bio-box {
@@ -38,14 +64,25 @@
         box-sizing: border-box;
         float: left;
         font-size: 1rem;
-        padding: 2%;
-        width: 25%;
+        margin: 40px 1% 0;
+        padding: 0 2% 2%;
+        width: 23%;
       }
       .bio-box h3 {
+        color: #fff;
         font-size: 1.5em;
+        margin: -40px 0 1em;
+        text-align: center;
+      }
+      .bio-box img {
+        width: 100%;
+      }
+      .bio-box > a {
+        /* color: #c68bf9; */
       }
       .bio-copy {
         font-size: 1em;
+        line-height: 1.5rem;
       }
       .bio-copy a {
         color: green;
@@ -55,21 +92,22 @@
   <body>
     <div class="full-hero hero-home">
       <h1>I'm an h1</h1>
-      <ul>
+      <ul class="social-list">
         <li>
-          <a href="https://example.com/" class="social-link">Link</a>
+          <a href="https://example.com/" class="social-link">Fb</a>
         </li>
         <li>
-          <a href="https://example.com/" class="social-link">Link</a>
+          <a href="https://example.com/" class="social-link">Tw</a>
         </li>
         <li>
-          <a href="https://example.com/" class="social-link">Link</a>
+          <a href="https://example.com/" class="social-link">Gh</a>
         </li>
       </ul>
     </div>
     <h2>I'm an h2</h2>
     <div class="bio-wrapper">
       <div class="bio-box">
+        <img src="http://placekitten.com/g/400/400" alt="">
         <h3>Michael Hartl</h3>
         <a href="https://twitter.com/mhartl" class="social-link">here</a>
         <div class="bio-copy">
@@ -89,6 +127,7 @@
         </div>
       </div>
       <div class="bio-box">
+        <img src="http://placekitten.com/g/400/400" alt="">
         <h3>Lee Donahoe</h3>
         <a href="https://twitter.com/leedonahoe" class="social-link">here</a>
         <div class="bio-copy">
@@ -101,6 +140,7 @@
         </div>
       </div>
       <div class="bio-box">
+        <img src="http://placekitten.com/g/400/400" alt="">
         <h3>Nick Merwin</h3>
         <a href="https://twitter.com/nickmerwin" class="social-link">here</a>
         <div class="bio-copy">
@@ -113,6 +153,7 @@
         </div>
       </div>
       <div class="bio-box">
+        <img src="http://placekitten.com/g/400/400" alt="">
         <h3>??</h3>
         <p>
           The Future
