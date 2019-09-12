@@ -396,6 +396,9 @@ h2 ~ p {
   list-style: none;
   padding: 0;
 }
+.blog-title-list a {
+  display: block;
+}
 .blog-title-list li ~ li {
   margin-top: 1.5em;
 }

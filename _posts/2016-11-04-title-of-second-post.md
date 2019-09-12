@@ -2,7 +2,7 @@
 layout: post
 title: The Raven
 postHero: /images/raven.jpg
-author: You, your, yourself
+author: Lee Donahoe
 authorTwitter: https://twitter.com/mhartl
 gravatar: https://s.gravatar.com/avatar/b65522a6f3a6899705d119d7aa232a6d?s=200
 postFooter: Additional information, and maybe a <a href="#">link or two</a>
