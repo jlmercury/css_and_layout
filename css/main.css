@@ -25,14 +25,15 @@ h1 {
 }
 a {
   color: #6397b5;
+  text-decoration-color: rgba(99, 151, 181, 0.1);
+  transition: text-decoration-color 0.3s ease;
+}
+a:hover {
+  text-decoration-color: rgba(99, 151, 181, 0.8);
 }
 h2 {
   font-size: 30px;
 }
-/* h3 {
-  font-family: 'Nunito Sans';
-  font-weight: 200;
-} */
 h4 {
   color: #999;
   font-weight: bold;
