@@ -440,6 +440,10 @@ h2 ~ p {
   color: #fff;
   padding: 7vh 0;
 }
+/* .home-callout h3 {
+  font-size: 1.2em;
+  margin-top: 3em;
+} */
 .callout-title {
   flex: 1;
   font-size: 5.57vw;
